@@ -229,6 +229,22 @@
     }      
 }
 
+.btn_fivethree{
+    border: 1px solid;
+    margin-left: 0px;
+    border-color: #FF5C26;
+    background-color: transparent;    
+    color: #FF5C26;
+    border-radius: 3px;
+    padding: 12px 28px;
+    &:hover{
+        color: white;
+        border-color: #FF6A37;
+        background: #FF5C26;
+        box-shadow: none;
+    }      
+}
+
 .btn_fivetwo{
     border: 1px solid;
     border-color: #FF6021;
@@ -239,6 +255,21 @@
         color: white;
         border-color: white;
         background: transparent;
+        box-shadow: none;
+    }    
+}
+
+.btn_fivefive{
+    border: 1px solid;
+    border-color: #FF5C26;
+    color: white;
+    background-color: #FF5C26;
+    border-radius: 3px;
+    padding: 12px 28px;
+    &:hover{
+        color: #FF5C26;
+        border-color: #FF5C26;
+        background-color: transparent;
         box-shadow: none;
     }    
 }

@@ -4117,6 +4117,7 @@
         font-size: 28px;
         line-height: 32px;
         color: white;
+        z-index: 1;
     }
     .portfolio_filter{
         display: block;

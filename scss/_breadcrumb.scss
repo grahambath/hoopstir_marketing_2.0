@@ -11,7 +11,7 @@
         position: absolute;
         right: 0;
         top: 0;
-        z-index: 1;
+        z-index: -1;
     }
 
 background-image: -moz-linear-gradient( -90deg, rgb(15,34,135) 0%, rgb(22,34,110) 100%);
@@ -36,6 +36,9 @@ background-image: -moz-linear-gradient( -90deg, rgb(15,34,135) 0%, rgb(22,34,110
         z-index: -1;
     }
 }
+
+
+
 /*================= End breadcrumb_area css =================*/
 
 /*================= Start breadcrumb_area_two css =================*/
@@ -113,6 +116,11 @@ background-image: -moz-linear-gradient( -90deg, rgb(15,34,135) 0%, rgb(22,34,110
             }
         }
     }
+}
+
+.breadcrumb_content{
+    z-index: 1;
+    
 }
 .breadcrumb_content_two{
     h1{

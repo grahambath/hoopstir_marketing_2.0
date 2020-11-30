@@ -693,6 +693,24 @@
         z-index: -1;    
 }
 }
+
+.service_details_area_process{
+    background-image: -moz-linear-gradient( 90deg, rgb(15,34,135) 0%, rgb(22,34,110) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(15,34,135) 0%, rgb(22,34,110) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(15,34,135) 0%, rgb(22,34,110) 100%);
+    position: relative;
+    z-index: 1;
+    padding: 100px 0px 125px;
+    overflow: hidden;
+    .breadcrumb_shap{
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;    
+}
+}
+
+
 .service_details_img{
     height: auto;
     width: auto;
